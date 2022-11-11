@@ -3,3 +3,4 @@ seaborn
 matplotlib
 streamlit
 folium
+streamlit_folium
