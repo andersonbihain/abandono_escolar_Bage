@@ -13,14 +13,23 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Abandono escolar Bagé/RS! 👋")
+    st.write("# Cartografia dos excluídos da escola: os efeitos do Covid no município de Bagé")
     st.sidebar.success("Selecione uma opção acima.")
-    st.markdown(
-        """
-        Esse relatório dinâmico foi elaborado pelos docentes da UNIPAMPA
-        Amélia Rota Borges e Anderson Luís Jeske Bihain
-        como parte do projeto ... Título do projeto. em parceria com o MP...
+    st.markdown("""
+        >> Responsáveis
+                                        
+        > Amélia Rota Borges de Bastos
         
+        > Anderson Luís Jeske Bihain
+          
+    
+        Essa pesquisa foi realizada em parceria com o Ministério Público do Rio Grande do Sul (MP) - seção Bagé, e buscou 
+        mapear estudantes do município de Bagé, em idade escolar obrigatória que, após a pandemia, não retornaram aos estudos.
+        O estudo compõe o projeto do MP intitulado: Busca Ativa e recuperação de Aprendizagem, que tem como objetivo o 
+        planejamento de ações com vistas a reintegração dos estudantes ao ambiente escolar, bem como, a recuperação das 
+        lacunas educacionais geradas no período pandêmico. O estudo, de característica quantitativa, será́ realizado nas 
+        escolas estaduais e municipais do município e objetiva cartografar escolas e bairros com maior abandono, de forma 
+        a subsidiar o MP nas ações relacionadas ao projeto Busca Ativa.
         
         **👈 Selecione o que deseja visualizar na barra lateral!
         ### Quer saber mais?
