@@ -27,9 +27,9 @@ def run():
         mapear estudantes do município de Bagé, em idade escolar obrigatória que, após a pandemia, não retornaram aos estudos.
         O estudo compõe o projeto do MP intitulado: Busca Ativa e recuperação de Aprendizagem, que tem como objetivo o 
         planejamento de ações com vistas a reintegração dos estudantes ao ambiente escolar, bem como, a recuperação das 
-        lacunas educacionais geradas no período pandêmico. O estudo, de característica quantitativa, será́ realizado nas 
-        escolas estaduais e municipais do município e objetiva cartografar escolas e bairros com maior abandono, de forma 
-        a subsidiar o MP nas ações relacionadas ao projeto Busca Ativa.
+        lacunas educacionais geradas no período pandêmico. O estudo, de característica quantitativa, foi realizado com 
+        escolas estaduais e municipais do município e objetivou identificar situação de abandono escolar em ambas as redes,
+        de forma a subsidiar o MP nas ações relacionadas ao projeto Busca Ativa.
         
         **👈 Selecione o que deseja visualizar na barra lateral!
         ### Quer saber mais?

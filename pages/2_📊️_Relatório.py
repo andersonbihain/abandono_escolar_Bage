@@ -17,8 +17,23 @@ def main2():
     data2 = pd.read_csv('escolas.csv')
     return data2
 
+def main3():
+    data3 = pd.read_csv('estadual.csv')
+    return data3
+
+def main4():
+    data4 = pd.read_csv('municipal.csv')
+    return data4
+
+def main5():
+    data5 = pd.read_csv('infantil.csv')
+    return data5
+
 abandono = main1()
 escolas = main2()
+estadual = main3()
+municipal = main4()
+infantil = main5()
 
 st.sidebar.markdown("# Relatório 📊️")
 
@@ -28,17 +43,30 @@ st.markdown(""" ## Procedimento de coleta de dados:
 Os dados foram coletados mediante questionário on-line que buscou identificar os seguintes dados:
 * Dados de identificação da escola
 * Número total de alunos por nível de ensino
-* Alunos em situação de abandono escolar – nominalmente indicando aluno /endereço
-* Alunos ainda em ensino remoto – nominalmente indicando aluno /endereço
+* Alunos em situação de abandono escolar – identificação de aluno/escola/endereço
+* Alunos em ensino remoto – identificação de aluno/escola/endereço
 
-As planilhas com as respostas das escolas podem ser consultadas através do link: [Formulários] (https://drive.google.com/drive/folders/1X1j_DNbZ_k6kksiIyOXvtpQmJEwpnjel?usp=sharing)
+As planilhas com as respostas das escolas podem ser consultadas através do link: [Formulários](https://drive.google.com/drive/folders/1X1j_DNbZ_k6kksiIyOXvtpQmJEwpnjel?usp=sharing)
+""")
 
-O levantamento de dados foi realizado nas escolas estaduais e municipais do município de Bagé.
+col1, col2 = st.columns(2)
 
-Escolas que responderam o questionário: 
+with col1:
+   st.header("Escolas participantes")
+   st.write("O levantamento de dados foi realizado nas 75 escolas publicas do município de Bagé, destas, 69 Escolas responderam"
+       "o questionários, estando distribuidas da seguinte maneira:")
 
-Escolas Estaduais: 
+with col2:
+   labels = 'Não respondeu', 'Não indicou abandonos', 'Respondeu e informou abandonos'
+   sizes = [6, 42, 27]
+   explode = (0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
+   fig1, ax1 = plt.subplots()
+   ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+           shadow=True, startangle=90)
+   ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+   st.pyplot(fig1)
 
+st.markdown(""" 17 Escolas Estaduais: 
 ___
         1. COL ESTADUAL WALDEMAR AMORETTY MACHADO; 2. ESC EST ENS FUN ARTHUR DAME; 3. ESC EST ENS FUN DR ARNALDO FARIAS; 4. ESC EST ENS FUN DR MARIO OLIVE SUNE;
     5. ESC EST ENS FUN FELIX CONTREIRAS RODRIGUES; 6. ESC EST ENS FUN MARTINHO SARAIVA; 7. ESC EST ENS FUN MONSENHOR COSTABILE HIPOLITO; 8. ESC EST ENS FUN PROF JULINHA COSTA TABORDA;
@@ -46,8 +74,7 @@ ___
     13. ESC EST ENS MED FARROUPILHA; 14. ESC EST ENS MED FREI PLACIDO; 15. ESC EST ENS MED JOSE GOMES FILHO; 16. ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC;
     16. ESC EST ENS MED SILVEIRA MARTINS
 ___
-
-Escolas Municipais:
+52 Escolas Municipais (36 EMEF e 16 EMEI):
 ___
         1. EMEF ANTONIO FUED KALIL; 2. EMEF ANTONIO SA; 3. EMEF DR ANTENOR GONCALVES PEREIRA (Geteco); 4. EMEF DR CANDIDO BASTOS; 5. EMEF DR DARCY AZAMBUJA; 6. EMEF DR JOAO SEVERIANO DA FONSECA;
     7. EMEF DR JOAO THIAGO DO PATROCINIO; 8. EMEF DR NICANOR PENA; 9. EMEF DR TELMO CANDIOTA DA ROSA; 10. EMEF FUNDACAO BIDART; 11. EMEF GABRIELA MISTRAL; 12. EMEF GENERAL EMILIO LUIZ MALLET;
@@ -62,25 +89,65 @@ ___
     51. EMREF SIMOES PIRES; 52. EMEF PROFESSORA CREUSA BRITO GIORGIS;
 ___
 
-
-
-Escolas que não responderam o questionário: 
+Ainda 6 escolas não responderam o questionário: 
 * ESC EST ED BAS PROFESSOR JUSTINO COSTA QUINTANA
 * ESC EST ENS FUN SAO JUDAS TADEU
 * EMEF MANOELA TEITELROIT
 * EMEI FREDERICO PETRUCCI
 * EMEI LUIZ MARIA FERRAZ
 * EMREF ALFREDO VIEIRA
-
-
 """)
 
 st.markdown(""" ## Informações Relevantes""")
 
+st.markdown(""" ### Estatísticas Gerais""")
+est_tot_fund = estadual['Total Fundamental'].sum() #total de alunos no ensino fundamental no estado
+est_tot_med = estadual['Total Médio'].sum() #total de alunos no ensino médio no estado
+
+#exemplo = escolas.loc[escolas['Tipo'] == 'Estadual', 'Alunos'].sum()
+
+st.write("De acordo com as respostas das escolas publicas do município de Bagé, existem", estadual['Total Alunos'].sum()+municipal['Total Alunos'].sum(),
+         "alunos matriculados, distribuidos da seguinte maneira:", estadual['Total Alunos'].sum(),
+         "em escolas estaduais e", municipal['Total Alunos'].sum() , "em escolas municipais. Esses alunos estão distribuidos"
+         "por série de acordo com a tabela abaixo:")
+total_pre=municipal['Pré I'].sum()+municipal['Pré II'].sum()
+total_fundamental=municipal['1°'].sum()+estadual['1°'].sum()+municipal['2°'].sum()+estadual['2°'].sum()+municipal['3°'].sum()+estadual['3°'].sum()+municipal['4°'].sum()+estadual['4°'].sum()+municipal['5°'].sum()+estadual['5°'].sum()+municipal['6°'].sum()+estadual['6°'].sum()+municipal['7°'].sum()+estadual['7°'].sum()+municipal['8°'].sum()+estadual['8°'].sum()+municipal['9°'].sum()+estadual['9°'].sum()
+total_medio=estadual['1° Médio'].sum()+estadual['2° Médio'].sum()+estadual['3° Médio'].sum()
+tabela=pd.DataFrame(([["Pré-Escola",total_pre],
+                      ["Pré I", municipal['Pré I'].sum()],
+                      ["Pré II", municipal['Pré II'].sum()],
+                      ["Ensino Fundamental",total_fundamental],
+                      ["1°", municipal['1°'].sum()+estadual['1°'].sum()],
+                      ["2°", municipal['2°'].sum()+estadual['2°'].sum()],
+                      ["3°", municipal['3°'].sum()+estadual['3°'].sum()],
+                      ["4°", municipal['4°'].sum()+estadual['4°'].sum()],
+                      ["5°", municipal['5°'].sum()+estadual['5°'].sum()],
+                      ["6°", municipal['6°'].sum()+estadual['6°'].sum()],
+                      ["7°", municipal['7°'].sum()+estadual['7°'].sum()],
+                      ["8°", municipal['8°'].sum()+estadual['8°'].sum()],
+                      ["9°", municipal['9°'].sum()+estadual['9°'].sum()],
+                      ["Ensino Médio", total_medio],
+                      ["1°", estadual['1° Médio'].sum()],
+                      ["2°", estadual['2° Médio'].sum()],
+                      ["3°", estadual['3° Médio'].sum()]]),
+                    columns=['Turma', 'Número de alunos'])
+st.table(tabela) #imprime tabela das escolas
+
+use_escolas_detalhado = st.checkbox(
+    "Ver matriculas por escola", False, help="Use esse botão para ver a distribuição de alunos matriculados por escola em cada turma"
+)
+
+if use_escolas_detalhado:
+    juntar = pd.concat([municipal, estadual])
+    categorias2 = list(juntar['Escola'].unique())  # lista as escolas para escolher
+    categoria2 = st.selectbox('Clique na lista para escolher uma escola', options=categorias2)
+    df_categoria2 = juntar.query('Escola == @categoria2')  # filtra por nome da escola
+    st.write(df_categoria2)
+
 st.markdown(""" ### Localização das escolas de ensino médio em Bagé
-A cartografia indica que a maior parte das escolas de ensino médio do município de Bagé ficam localizadas na região central 
+A cartografia indicou que, a maior parte das escolas de ensino médio do município de Bagé, ficam localizadas na região central 
 da cidade, existindo bairros descobertos por escolas com essa oferta, o que pode condicionar a situação de abandono, em 
-especial na pandemia que agravou a situação econômica da população""")
+especial, na pandemia, que agravou a situação econômica de muitas familias""")
 
 # Criando mapa e definindo o zoom
 map = folium.Map(location=[abandono.Latitude.mean(), abandono.Longitude.mean()], zoom_start=13, control_scale=True,
@@ -108,5 +175,19 @@ for index, location_info in escolas_filtrado3.iterrows():
 
 folium_static(map, width=870, height=550)  # Printa o gráfico
 
-st.markdown(""" ### Escolas com numero pequeno de alunos""")
+st.markdown(""" ### Sugestões
+Os resultados da cartografia sugerem algumas ações possíveis, a serem avaliadas pelo Ministério Público e secretarias 
+municipal e estadual de educação. São elas: 
 
+> 1. Necessidade de sistemas interligados de comunicação sobre informações educacionais das diferentes redes do município;
+
+> 2. Ações de resgate dos estudantes em situação de abandono, antes do período de matrícula, de forma a garantir a realização de matrícula para 2023;
+
+> 3. Ações articuladas com Conselho Tutelar para busca ativa dos estudantes em situação de abandono, bem como, de 
+acompanhamento preventivo aos estudantes, como forma de evitar novos abandonos;
+
+> 4. Ações de conscientização e responsabilização dos pais em virtude da ocorrência de crime de abandono intelectual;
+
+> 5. Planejamento de ações com vistas a recuperação da aprendizagem de alunos em situação de abandono;
+
+""")
