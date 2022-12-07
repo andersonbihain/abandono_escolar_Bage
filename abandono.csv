@@ -1,42 +1,42 @@
 Aluno,Data de nascimento,Serie,Nível,Nome dos responsáveis,Telefone,Endereço,Bairro,Município,Latitude,Longitude,E-mail,Declarar se o aluno tem deficiência e o tipo,O aluno teve reprovações anteriores? – identificar em qual/quais anos escolares,Escola,Tipo
 Leandro Alves Jardim,02/12/2008,4º,F,Catia Ritta Alves Jardim,(53) 98436-3705,R. Capitao Alvaro da Cruz Marques. 606,Pedra Branca,Bagé,-31.3363926,-54.0739146,,,2018 - 2019 - 3º ano EF/ 2021 - 4º ano - Busca ativa,ESC EST ENS FUN SENADOR GETULIO VARGAS,Municipal
-Thayne Gonçalves Godoy,13/09/2005,7º ,F,Miriane Duarte Gonçalves,(53)99965-4061,não localizado,,Bagé,-31.3332525,-54.106536,,,2018- 2019 - 6º ano / 2021 - 7º ano busca ativa,ESC EST ENS FUN SENADOR GETULIO VARGAS,Municipal
+Thayne Gonçalves Godoy,13/09/2005,7º ,F,Miriane Duarte Gonçalves,(53)99965-4061,não localizado,,Bagé,-31.338579852952,-54.0805642642417,,,2018- 2019 - 6º ano / 2021 - 7º ano busca ativa,ESC EST ENS FUN SENADOR GETULIO VARGAS,Municipal
 Leonardo Bryan Rodrigues Vasques,09/04/2006,8º,F,Marília Glette Rodrigues / Diego Ramos Vasques,53-997030009,Tomas Mércio Pereira. 56 apto 02,Santa Flora,Bagé,-31.3347568,-54.0892944,,,,EMEF DR ANTENOR GONCALVES PEREIRA (Geteco),Municipal
 Adriel Ferreira Brasil,42167,9º,F,Paulo Cesar Cardozo Brasil / Mara Regina de Vasconcelos Ferreira,53-997117894,Rua 338. nº 636,Mingote Paiva,Bagé,-31.3239131,-54.126391,,,Sim. 8º em 2019 e 9º em 2021,EMEF DR ANTENOR GONCALVES PEREIRA (Geteco),Municipal
 THOMAS SOARES TOLEDO,05/04/2012,4º ,F,FERNANDA BEATRIZ LEMOS SOARES,999080168,CLÉBIO GUILLON Nº 1121,P. ADS PEDRAS,Bagé,-31.3598919,-54.0870679,,,NÃO,EMEF DR DARCY AZAMBUJA,Municipal
 MATHEUS LIMA COSTA,30/04/2007,6º ,F,VANESSA OPA LIMA,999092602,R. DOS BANCÁRIOS Nº 790,P. DAS PEDRAS,Bagé,-31.3601279,-54.0862629,,,SIM,EMEF DR DARCY AZAMBUJA,Municipal
 MÁRIO VINÍCIUS DE DEUS G.,19/09/2003,8º ,F,MÁRIO VENIS LIMA GONÇALVES,999102082,R. 727 Nº 861,P. ADS PEDRAS,Bagé,-31.3554453,-54.0846923,,,SIM,EMEF DR DARCY AZAMBUJA,Municipal
 MIRIANE SILVA PEREZ,18/03/2005,9º ,F,SANDRA GARCIA SILVA,,CARLOS MANGABEIRA. R Número: 1253,ALCIDES ALMEIDA,Bagé,-31.3278285,-54.1222945,Não,Não,Não,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
-ÊMILI VITÓRIA MARTINS DA ROSA,25/02/2006,8º ,F,CRISTIANE BANDEIRA MARTINS,53999221742,R 343. R Número: 362 Complemento: CASA 01,MINGOTE PAIVA,Bagé,-31.3332525,-54.106536,,,2019. 2021,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
-CRISTIELLE MORAES MACHADO,30/12/2006,7º ,F,ANA CLAUDIA MELO MORAES e GELSON MARTINS MACHADO,,RUA 346 Número: 298,MINGOTE PAIVA,Bagé,-31.3332525,-54.106536,,,2021,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
-LUAN SILVA MACIEL,19/11/2004,6º ,F,ANA PAULA SILVA MACIEL,53999213300,RUA 346 Número: 298,MINGOTE PAIVA,Bagé,-31.3332525,-54.106536,,,2016. 2018. 2020.2021,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
+ÊMILI VITÓRIA MARTINS DA ROSA,25/02/2006,8º ,F,CRISTIANE BANDEIRA MARTINS,53999221742,R 343. R Número: 362 Complemento: CASA 01,MINGOTE PAIVA,Bagé,-31.3238992619698,-54.1270230373392,,,2019. 2021,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
+CRISTIELLE MORAES MACHADO,30/12/2006,7º ,F,ANA CLAUDIA MELO MORAES e GELSON MARTINS MACHADO,,RUA 346 Número: 298,MINGOTE PAIVA,Bagé,-31.3256356399062,-54.1302495041778,,,2021,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
+LUAN SILVA MACIEL,19/11/2004,6º ,F,ANA PAULA SILVA MACIEL,53999213300,RUA 346 Número: 298,MINGOTE PAIVA,Bagé,-31.325683223462,-54.1301980853766,,,2016. 2018. 2020.2021,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
 HÉRICK DA SILVA ARTIGAS,23/11/2006,5º ,F,JUREMA DE FÁTIMA MAGLIONE DA SILVA E HERADI RODRIGUES ARTIGAS,,MELANIE GRANIER Número: 1567,MENINO DEUS,Bagé,-31.3296816,-54.1252264,,,,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
 NAIELY DA SILVA RIGON,10/06/2011,4º ,F,ANA CRISTINA MACHADO DA SILVA e GERALDO RIGON,53997047624,R CARLOS C. MANGABEIRA Número: 1422,ALCIDES ALMEIDA,Bagé,-31.3284339,-54.1242771,,,,EMEF DR JOAO THIAGO DO PATROCINIO,Municipal
 Endreelen Lucas,10/09/2007,6º ,F,Enelise Lemos Lucas,53999205364,Jacinto Ferrer Filho - 1446,Alcides Almeida,Bagé,-31.3262628,-54.1242705,,não,Reprovada em 2021 no 6º ano,EMEF DR NICANOR PENA,Municipal
-Taylor Moreira,26/04/2010,5º ,F,Xilene Azambuja Moreira,53 999708205,Corredor da VIla Rica,Serrilhada,Bagé,-31.3332525,-54.106536,-,Não tem,Não,EMEF DR TELMO CANDIOTA DA ROSA,Municipal
-Janice Magalhães,10/06/2007,6º ,F,Maria Cristina Magalhães Ferreira,53 997098902,Rua 339. número 419,Mingote Paiva,Bagé,-31.3332525,-54.106536,-,Não tem,Sim. no 4º Ano e 5º Ano.,EMEF DR TELMO CANDIOTA DA ROSA,Municipal
-Samuel Barbosa Suarez,27/08/2006,6º ,F,Maria Terezinha de Barros Barbosa,53 997103720,Beco dos Coqueiros,Santa Cecília,Bagé,-31.3332525,-54.106536,-,Não tem,Sim. no 3º Ano 3 vezes. No sexto ano uma vez.,EMEF DR TELMO CANDIOTA DA ROSA,Municipal
+Taylor Moreira,26/04/2010,5º ,F,Xilene Azambuja Moreira,53 999708205,Corredor da VIla Rica,Serrilhada,Bagé,-31.3334800057415,-54.1356942648837,-,Não tem,Não,EMEF DR TELMO CANDIOTA DA ROSA,Municipal
+Janice Magalhães,10/06/2007,6º ,F,Maria Cristina Magalhães Ferreira,53 997098902,Rua 339. número 419,Mingote Paiva,Bagé,-31.3235802224908,-54.1283119011769,-,Não tem,Sim. no 4º Ano e 5º Ano.,EMEF DR TELMO CANDIOTA DA ROSA,Municipal
+Samuel Barbosa Suarez,27/08/2006,6º ,F,Maria Terezinha de Barros Barbosa,53 997103720,Beco dos Coqueiros,Santa Cecília,Bagé,-31.3344869151734,-54.1314498650064,-,Não tem,Sim. no 3º Ano 3 vezes. No sexto ano uma vez.,EMEF DR TELMO CANDIOTA DA ROSA,Municipal
 Dérick Concilio Machado,16/12/2006,6º ,F,Cristiane Alves Concilio,53 999065231,Álvaro Laranjeira. 1227,Santa Cecília,Bagé,-31.3246384,-54.1263512,-,Não tem,,EMEF DR TELMO CANDIOTA DA ROSA,Municipal
 ANNA BEATRYZ DE MENESES,25/01/2015,1º ,F,CARINE DE MENESES DIAS,53999940965,RUA JACINTO FERRER. 1247,alcides almeida,Bagé,-31.3399059,-54.0847099,,,,EMEF GABRIELA MISTRAL,Municipal
 GIOVANA DIAS RIBERO,17/03/2014,2º ,F,MARIA ANDREIA DE MENESES DIAS,53999941065,RUA JACINTO FERRER. 1247,alcides almeida,Bagé,-31.3399059,-54.0847099,,,,EMEF GABRIELA MISTRAL,Municipal
 MARIA EDUARDA DIAS RIBERO,13/11/2012,3º ,F,MARIA ANDREIA DE MENESES DIAS,53999017271,RUA JACINTO FERRER. 1247,alcides almeida,Bagé,-31.3399059,-54.0847099,,,,EMEF GABRIELA MISTRAL,Municipal
-KAUÃ MENDES LUPE,02/03/2005,6º ,F,EDINA FAGUNDES MENDES,5391337517,NOVENTA. R. 733,passo do jordão,Bagé,-31.3332525,-54.106536,,,4º.  5º.  6º Anos,EMEF GABRIELA MISTRAL,Municipal
+KAUÃ MENDES LUPE,02/03/2005,6º ,F,EDINA FAGUNDES MENDES,5391337517,NOVENTA. R. 733,passo do jordão,Bagé,-31.3243764527711,-54.1216545206237,,,4º.  5º.  6º Anos,EMEF GABRIELA MISTRAL,Municipal
 JULIANO BARRETO DUARTE FERREIRA,17/04/2005,7º ,F,LIDIA LEMOS BARRETO,5399799170,TELMO CANDIOTA DA ROSA. R. 55. APTO 26,stand,Bagé,-31.3448128,-54.1239816,,,7º Ano,EMEF GABRIELA MISTRAL,Municipal
-TONY JABER AMORIM DE LIMA,27/07/2006,7º ,F,NUBIA DE AMORIM,53999983578,R NELLY EGAS RIBEIRO. R. 298,santa carmem,Bagé,-31.3332525,-54.106536,,,3º. 6º Anos,EMEF GABRIELA MISTRAL,Municipal
+TONY JABER AMORIM DE LIMA,27/07/2006,7º ,F,NUBIA DE AMORIM,53999983578,R NELLY EGAS RIBEIRO. R. 298,santa carmem,Bagé,-31.3338582535,-54.1234630393812,,,3º. 6º Anos,EMEF GABRIELA MISTRAL,Municipal
 Lauren Valentina de Souza Rodrigues,26/03/2015,1º,F,Cristiano P. Rodrigues,,Rua Abranhann Linconnl. 524,Pedra Branca,Bagé,-31.3399556,-54.0772584,,Não,Não,EMEF GENERAL EMILIO LUIZ MALLET,Municipal
 Samara Padilha Alves,04/12/2006,7º,F,Silvia Rejane Padilha Alves,997025914,Bairro Ibajé Viela 21,Ibajé,Bagé,-31.346814,-54.128656,,Não,3º- 2015-,EMEF KALIL A KALIL,Municipal
 Manoela dos Santos Daneris,28/03/2004,7º,F,Paulo Eduardo da Silva Daneris,99991557,Avenida Espanha179,Centro,Bagé,-31.3150138,-54.1103221,,DI Severa,7º 2020-2021,EMEF KALIL A KALIL,Municipal
 Jean Carlos dos Santos Rodrigues,11/10/2004,8º,F,Ana Lúcia Coutinho dos Santos,99775493,Setecentos e noventa e seis nº 45,Stand,Bagé,-31.3098542,-54.1398148,,DI,3º - 2015 - 2016,EMEF KALIL A KALIL,Municipal
 Ketlin Anderson Moreira,17/03/2008,5°,F,José Vargas Moreira Junior e Mabel Cristina Anderson Rosa,54999152963,Monte Líbano.1162,São Bernardo,Bagé,-31.3081178,-54.0965309,,Não,Sim 3° ano,EMEF MAL JOSE DE ABREU,Municipal
-Emanueli Valle Proença,27/02/2015,2º,F,Jane Naili Fagundes  Valle,(53)  997  109825,General Mallet nº 1068,Cristo   Redentor,Bagé,-31.3332525,-54.106536,-,,Não,EMEF PADRE GERMANO,Municipal
-Gabriel Valle Proença,19/06/2012,4º,F,Jane Naili Fagundes  Valle,(53)  997  109825,General Mallet nº 1068,Cristo   Redentor,Bagé,-31.3332525,-54.106536,-,,Não,EMEF PADRE GERMANO,Municipal
+Emanueli Valle Proença,27/02/2015,2º,F,Jane Naili Fagundes  Valle,(53)  997  109825,General Mallet nº 1068,Cristo   Redentor,Bagé,-31.3491834561623,-54.1122247132794,-,,Não,EMEF PADRE GERMANO,Municipal
+Gabriel Valle Proença,19/06/2012,4º,F,Jane Naili Fagundes  Valle,(53)  997  109825,General Mallet nº 1068,Cristo   Redentor,Bagé,-31.3495328941919,-54.1120635240084,-,,Não,EMEF PADRE GERMANO,Municipal
 Pietro Waiss Strapasson,09/08/2016,Pré II,F,Yeda Rodrigues Waiss,53-991799393,Rua Atalicio Pitan.219,São Martins,Bagé,-31.299358,-54.1230475,,NÃO,NÃO,EMEF PAULO FREIRE,Municipal
 Cristiano Gonçalves de Souza,13/02/2004,8º ,F,Deibler Francisco Fernandes de Souza e Shirlene Rita Gonçalves,53999926153,Darci Rodrigues Belo. 2668,São João,Bagé,-31.3084985,-54.1060011,,sim. def. física,3º e 8º anos,EMEF PROFESSOR MIRANDA,Municipal
 Gabriela Goulart Bell,28/02/2016,Pré II,F,Ana Paula Gonçalves Goulart,53 991383012,Rua 235. 474,Damé,Bagé,-31.3145513,-54.1341935,,não,,EMEF PROFESSOR MIRANDA,Municipal
 KAREN LORENA SALVO FAGUNDES,27/06/2005,7º,F,TANARA LIN SALVO FAGUNDES,53999794484,RUA POMPILIO NUNES,CAMILO GOMES,Bagé,-31.3105645,-54.1312052,,NÃO,2021,EMEF PROFESSOR MANOEL ARIDEU MONTEIRO,Municipal
 Sara Tereza Tavares Moreira Feijó,28/09/04,6°,F,Quelen Garcia Viana/ possui guarda,999040957,Rua 803. n° 501,Habitar Brasil,Bagé,-31.3358965,-54.0601434,Não possui,Não possui,Sim. 6° (2019.20 e 21),EMEF PROFESSORA MARIA DE LOURDES MACHADO MOLINA,Municipal
 Kéthelyn Mello Gonçalves,03/06/06,6°,F,Jesus Augusto Piquesgil Gonçalves e Graciela Cougo Mello,997007261,Rua Miguel Centena n° 650,Morgado Rosa,Bagé,-31.3371747,-54.0635833,Não possui,Não possui,Sim. 6° (2019.20 e 21),EMEF PROFESSORA MARIA DE LOURDES MACHADO MOLINA,Municipal
-Natiele Oliveira Vasconcelos,04/04/05,7°,F,Miriam Simone da Silva Oliveira e Aniceto Vasconcelos,999731633,Rua 498. n° 3341,Morgado Rosa,Bagé,-31.3332525,-54.106536,Não possui,Não possui,Sim. 7°(2021),EMEF PROFESSORA MARIA DE LOURDES MACHADO MOLINA,Municipal
+Natiele Oliveira Vasconcelos,04/04/05,7°,F,Miriam Simone da Silva Oliveira e Aniceto Vasconcelos,999731633,Rua 498. n° 3341,Morgado Rosa,Bagé,-31.3388825763466,-54.0614894380667,Não possui,Não possui,Sim. 7°(2021),EMEF PROFESSORA MARIA DE LOURDES MACHADO MOLINA,Municipal
 Vítor Glenir Colares Gonçalves,26/08/07,5°,F,Maria Francisca M. C. Gonçalves e Glenir Fernandes Gonçalves,999528134,Rua Tacito Reni de M. Van Langendoc n° 480,Habitar Brasil,Bagé,-31.3353843,-54.0618297,Não possui,sim. Síndrome de Down,Sim. 5°(2018. 19 e20 ),EMEF PROFESSORA MARIA DE LOURDES MACHADO MOLINA,Municipal
 Vítor de  Moraes Pinheiro,23/04/2005,9º ,F,Claudio  Pinheiro e Janice  Pinheiro,999192110,Rua - Dr. Penna Nº1087,Centro,Bagé,-31.335172,-54.1119827,-------------------------,Não,Sim 9º Ano,EMEF TEO VAZ OBINO,Municipal
 Pyetra Camargo da Conceição,27/01/2009,8º ,F,Liomar Porto e Elci Camargo,999499407,Rua - 448  Nº 821,Vila Gaúcha,Bagé,-31.340733,-54.120321,---------------------------,Não,Não,EMEF TEO VAZ OBINO,Municipal
@@ -45,7 +45,7 @@ Aysha Vitória Pinto Freitas,08/04/2017,Pré I,F,Thaíssa Coelho Pinto,992047142
 Maria Clara Resende Ferreira,06/10/2017,Pré I,F,Franciele Vasconcellos Resende,999657670,Rua 801. nº211,Habitar Brasil,Bagé,-31.3353843,-54.0618297,,Não,,EMEI DR JOAO DE DEUS LIMA GALVAO,Municipal
 Maria Clara Teles Pereira,03/04/2017,Pré I,F,Thamires Teles Nunes,999544300,Rua 802. nº 318,Habitar Brasil,Bagé,-31.3353843,-54.0618297,,,,EMEI DR JOAO DE DEUS LIMA GALVAO,Municipal
 SOFIA DA SILVA CAON,15/03/2017,Pré I,F,MARIA SIBILA DA SILVA,53991101454,MARECHAL FLORIANO 3401,CENTRO,Bagé,-31.3035237,-54.1080458,,,NÃO,EMEI MARIANINHA LOPES,Municipal
-JOICE DA SILVA MOREIRA,24/05/2017,Pré I,F,LUZIANE ROLIM DA SILVA,51 995095366,ANGELINO PALLETI PREVITALI,IVO FERRONATO,Bagé,-31.3332251,-54.1065079,,,,EMEI PROFESSORA ZITA FERRANDO DE VARGAS,Municipal
+JOICE DA SILVA MOREIRA,24/05/2017,Pré I,F,LUZIANE ROLIM DA SILVA,51 995095366,ANGELINO PALLETI PREVITALI,IVO FERRONATO,Bagé,-31.2961089221792,-54.06636783477280,,,,EMEI PROFESSORA ZITA FERRANDO DE VARGAS,Municipal
 Rafael Silva de Souza,12/07/2004,7º ,F,Elisângela Patrícia Ramos da Silva,99997-3350,R. Bianculi Galo. 2717,Popular,Bagé,-31.3105377,-54.1159741,rafael-sdsouza@educar.rs.gov.br,Não tem deficiência,Sim. foi reprovado no 5º ano,EMEI PROFESSORA ZITA FERRANDO DE VARGAS,Estadual
 Ândriws Aleksandr de Brito Machado,18/04/2005,7º ,F,Ana Paula Soares de Brito,53 991609554,Rua Preto Caxias. 394,Centro,Bagé,-31.3421876,-54.1049237,,,6º ano,ESC EST ENS MED FREI PLACIDO,Estadual
 Bruna correa Portela,26/05/2004,1º ,M,Rosangela Correa Portela,53 999517275,R. Bartolomeu gusmão,Com. Kramer,Bagé,-31.3821815,-54.1165836,,,1º ano Ens Médio,ESC EST ENS MED FREI PLACIDO,Estadual
@@ -74,15 +74,15 @@ Marcielly Figueiredo Vieira da Silva,25/02/2011,5º ,F,Luciana Figueiredo Vieira
 Carlos Vítor Correa Ribeiro,08/08/2005,7º ,F,Suélen Rodrigues Correa - Carlos Alberto Ribeiro,(53) 99953-2326,R. Ney Azambuja. AP 207. BL B3,SÃO JORGE,Bagé,-31.3027081,-54.1121385,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
 Gabriel César Bittencourt Carvalho,21/04/2005,7º ,F,Saionara de Fatima Pacheco Bittencourt,(53) 99991-3656,Marechal Floriano. 2401. AP 105. BL G,CENTRO,Bagé,-31.3119219,-54.1067993,,,4º ANO EM 2016 E 2017,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
 Gabriel de Lara Oliveira Filho,19/02/2007,7º ,F,Sandra Mara dos Santos Alves - Gabriel de Lara,(53) 99953-2775,R. Itajai. 298,SÃO JORGE,Bagé,-31.3068332,-54.1125148,,,7º ANO,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Isadora Farias de Sousa,30/10/2007,7º ,F,Luana da Silva Farias - Alex Sandro Navarrina Sousa,(53) 99996-3518,,,Bagé,-31.3332251,-54.1065079,,,5º ANO,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Isadora Farias de Sousa,30/10/2007,7º ,F,Luana da Silva Farias - Alex Sandro Navarrina Sousa,(53) 99996-3518,,,Bagé,-31.3045346425654,-54.1077221613389,,,5º ANO,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
 Ariely Jardim Osorio Bauer Alberdanha,10/07/2006,8º ,F,Patricia Cristina Jardim Osorio,(53) 99961-2930,Lrg Ney Azambuja. AP 411. BL A6,SÃO JORGE,Bagé,-31.3027081,-54.1121385,osorioariely@gmai.com,,6º ANO,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Dênis Moreira Vaz,,8º ,F,,,,,Bagé,-31.3332251,-54.1065079,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Eduarda Espinosa Shamaa,,8º ,F,,,,,Bagé,-31.3332251,-54.1065079,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Diônatan Valim Jardim,,8º ,F,,,,,Bagé,-31.3332251,-54.1065079,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Entony da Silva Gonçalves,,8º ,F,,,,,Bagé,-31.3332251,-54.1065079,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Guilherme Goncalves Chagas,,8º ,F,,,,,Bagé,-31.3332251,-54.1065079,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Kemylen Vitória Camargo Alves,,8º ,F,,,,,Bagé,-31.3332251,-54.1065079,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
-Lucas Quadro Fernandes,,8º ,F,,,,,Bagé,-31.3332251,-54.1065079,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Dênis Moreira Vaz,,8º ,F,,,,,Bagé,-31.3019079711993,-54.1094241048615,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Eduarda Espinosa Shamaa,,8º ,F,,,,,Bagé,-31.3023927714844,-54.1082723879577,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Diônatan Valim Jardim,,8º ,F,,,,,Bagé,-31.3028269188773,-54.1091615811556,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Entony da Silva Gonçalves,,8º ,F,,,,,Bagé,-31.3035287862637,-54.1089837425165,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Guilherme Goncalves Chagas,,8º ,F,,,,,Bagé,-31.3027183822173,-54.1078658996394,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Kemylen Vitória Camargo Alves,,8º ,F,,,,,Bagé,-31.303644557702,-54.1098729357136,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
+Lucas Quadro Fernandes,,8º ,F,,,,,Bagé,-31.3040353819417,-54.1085605434967,,,,ESC EST ENS MED PROF LEOPOLDO MAIERON CAIC,Estadual
 Leandro Almeida Scholant Lopes,31/10/2005,7º,F,Kelen Reges Almeida,,R. Professora Melanie Granier - 1438,Menino Deus,Bagé,-31.3298628,-54.1238159,,-,6º e 7º,ESC EST ENS MED JOSE GOMES FILHO,Estadual
 Israel Pires de Paula,09/07/2006,7º,F,Darlene da Silva Pires,,-R. Amilton Ximendes Rodrigues- 124,Uniao,Bagé,-31.2885089,-54.1406128,,-,7º,ESC EST ENS MED JOSE GOMES FILHO,Estadual
 Wellerson Paiva Soll,28/06/2004,8º,F,Berenice Paiva Soll,,R. Alcides Etchegoen- 181,Estrela Dalva,Bagé,-31.3397548,-54.0905574,,-,7º,ESC EST ENS MED JOSE GOMES FILHO,Estadual

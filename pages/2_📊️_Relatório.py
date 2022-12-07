@@ -53,8 +53,8 @@ col1, col2 = st.columns(2)
 
 with col1:
    st.header("Escolas participantes")
-   st.write("O levantamento de dados foi realizado nas 75 escolas publicas do município de Bagé, destas, 69 Escolas responderam"
-       "o questionários, estando distribuidas da seguinte maneira:")
+   st.write("O levantamento de dados foi realizado nas 75 escolas públicas do município de Bagé, destas, 69 escolas responderam "
+            "ao questionário, sendo destas:")
 
 with col2:
    labels = 'Não respondeu', 'Não indicou abandonos', 'Respondeu e informou abandonos'
@@ -89,7 +89,7 @@ ___
     51. EMREF SIMOES PIRES; 52. EMEF PROFESSORA CREUSA BRITO GIORGIS;
 ___
 
-Ainda 6 escolas não responderam o questionário: 
+Escolas que não responderam ao questionário (6 escolas):
 * ESC EST ED BAS PROFESSOR JUSTINO COSTA QUINTANA
 * ESC EST ENS FUN SAO JUDAS TADEU
 * EMEF MANOELA TEITELROIT
@@ -190,4 +190,21 @@ acompanhamento preventivo aos estudantes, como forma de evitar novos abandonos;
 
 > 5. Planejamento de ações com vistas a recuperação da aprendizagem de alunos em situação de abandono;
 
+""")
+
+st.markdown("""### Dificuldades encontradas
+ * Problemas relacionados aos endereços: O município de Bagé não possui zoneamento aprovado por lei – de forma que os serviços de georeferenciamento definem nomes de ruas e bairros através informações coletadas em diferentes recipientes, levando a existir hoje diversas ruas com mais de uma denominação, assim como bairros com mais de um nome. Fato que nos obrigou a realizar a maior parte das localização das escolas e de alunos em situação de abandono de forma manual.
+ 
+ * Problemas relacionados ao cadastro dos alunos: Alguns alunos não tiveram seus endereços informados, para contornar a situação esses alunos foram indicados no mapa em região próxima a escola em que está matriculado.
+ 
+ * Escolas que não responderam o questionário ou demoraram para responder: Além de seis escolas não terem respondido o questionário após diversas solicitações do MP, a maior parte das escolas demoraram para responder ao questionário, acarretando um atraso considerável na produção desse material.
+ 
+ * Escolas que responderam parcialmente o questionário: Dado o fato que escolas com um número reduzido de discentes apresentaram um número significante de alunos em situação de abandono e escolas com grande número de alunos não relataram abandonos, interpretamos que essas escolas possívelmente responderam parcialmente  apresentando somente dados básicos relacionados a identificação da escola e o número de alunos matriculados.
+""")
+
+st.markdown("""### Possibilidades de implementação nesse sistema:
+1. Sitema interligado entre as escolas, podendo essas possuir interface para inserir dados;
+2. Monitoramento de alunos com baixa frequencia;
+3. Monioramento de transferência escolar;
+4. Identificação de alunos que não regressaram a escola para novo ano letivo
 """)
